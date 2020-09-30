@@ -1,0 +1,26 @@
+{
+  "name": "web-scrapper",
+  "version": "1.0.0",
+  "description": "A web scrapper tool using JSDom",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "start:dev": "tsc --watch ",
+    "build": "tsc"
+  },
+  "author": "Liuta Ovidiu",
+  "license": "ISC",
+  "dependencies": {
+    "@braintree/sanitize-url": "^5.0.0",
+    "@types/cheerio": "^0.22.22",
+    "@types/jquery": "^3.5.1",
+    "@types/jsdom": "^16.2.4",
+    "axios": "^0.20.0",
+    "cheerio": "^1.0.0-rc.3",
+    "curl": "^0.1.4",
+    "jquery": "^3.5.1",
+    "jsdom": "^16.4.0",
+    "p-map": "^4.0.0"
+  }
+}
